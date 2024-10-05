@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column Table</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Column Table</h1>
+        <label for="rows">Rows</label>
+        <input type="range" id="rows" min="1" max="10" value="4">
+        <span id="rowsOutput">4</span>
+
+        <label for="columns">Columns</label>
+        <input type="range" id="columns" min="1" max="10" value="6">
+        <span id="columnsOutput">6</span>
+
+        <div id="tableContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
